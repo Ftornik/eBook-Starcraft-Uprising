@@ -2,5 +2,5 @@
 Перевод взят с сайта http://starcraft.blizzgame.ru/literature/books/uprising/
 
 Упаковка файлов в epub:
-$ zip -0Xq scu.epub mimetype
-$ zip -Xr9Dq scu.epub * -x OEBPS/.DS_Store README
+$ zip -0Xq uprising.epub mimetype
+$ zip -Xr9Dq uprising.epub * -x README
