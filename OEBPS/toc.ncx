@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="ru-RU">
+    <head>
+        <meta name="dtb:uid" content="978-0-7434-1898-0"/>
+    </head>
+    <docTitle>
+        <text>Starcraft: Uprising</text>
+    </docTitle>
+    <navMap>
+        <navPoint id="cover" playOrder="1">
+            <navLabel>
+                <text>Обложка</text>
+            </navLabel>
+            <content src="cover.xhtml"/>
+        </navPoint>
+        <navPoint id="intro" playOrder="2">
+            <navLabel>
+                <text>Посвящение автора</text>
+            </navLabel>
+            <content src="chapters/intro.xhtml"/>
+        </navPoint>
+        <navPoint id="ch01" playOrder="3">
+            <navLabel>
+                <text>Глава 1. Семена революции</text>
+            </navLabel>
+            <content src="chapters/scu-ch01.xhtml"/>
+        </navPoint>
+        <navPoint id="ch02" playOrder="4">
+            <navLabel>
+                <text>Глава 2. Затишье перед бурей</text>
+            </navLabel>
+            <content src="chapters/scu-ch02.xhtml"/>
+        </navPoint>
+        <navPoint id="ch03" playOrder="5">
+            <navLabel>
+                <text>Глава 3. Око шторма</text>
+            </navLabel>
+            <content src="chapters/scu-ch03.xhtml"/>
+        </navPoint>
+        <navPoint id="ch04" playOrder="6">
+            <navLabel>
+                <text>Глава 4. Призраки прошлого</text>
+            </navLabel>
+            <content src="chapters/scu-ch04.xhtml"/>
+        </navPoint>
+        <navPoint id="ch05" playOrder="7">
+            <navLabel>
+                <text>Глава 5. Незванный гость</text>
+            </navLabel>
+            <content src="chapters/scu-ch05.xhtml"/>
+        </navPoint>
+        <navPoint id="ch06" playOrder="8">
+            <navLabel>
+                <text>Глава 6. Перегруппировка</text>
+            </navLabel>
+            <content src="chapters/scu-ch06.xhtml"/>
+        </navPoint>
+        <navPoint id="ch07" playOrder="9">
+            <navLabel>
+                <text>Глава 7. Тарсонианская академия Призраков</text>
+            </navLabel>
+            <content src="chapters/scu-ch07.xhtml"/>
+        </navPoint>
+    </navMap>
+</ncx>

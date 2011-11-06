@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package version="2.0" xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookID" xml-lang="ru-RU">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier id="BookID" opf:scheme="ISBN">978-0-7434-1898-0</dc:identifier>
+        <dc:title>Starcraft: Uprising</dc:title>
+        <dc:language>ru</dc:language>
+        <dc:subject>General Fiction</dc:subject>
+        <dc:creator opf:file-as="Neilson, Micky" opf:role="aut">Micky Neilson</dc:creator>
+        <dc:contributor opf:role="trl">blizzgame.ru</dc:contributor>
+        <dc:contributor opf:role="bkp">Ftornik (books@ftornik.pp.ua)</dc:contributor>
+        <dc:publisher>Simon &amp; Schuster</dc:publisher>
+        <dc:date>2000-12-18</dc:date>
+        <dc:description>StarCraft: Uprising — фантастическая электронная книга (ISBN 0-7434-1898-0), написанная Микки
+            Нельсоном. Действие происходит в вымышленной вселенной StarCraft. История официально признана Blizzard
+            Entertainment, компанией, создавшей компьютерную игру StarCraft. Сюжет представляет собой прелюдию к
+            событиям, происходящим в этой игре. Впоследствии книга была опубликована издательством Simon &amp; Schuster
+            в декабре 2000 года.
+        </dc:description>
+        <meta name="cover" content="cover-image"/>
+    </metadata>
+    <manifest>
+        <item id="cover-image" href="cover.jpg" media-type="image/jpeg"/>
+        <item id="cover" href="cover.xhtml" media-type="application/xhtml+xml"/>
+        <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+        <item id="intro" href="chapters/intro.xhtml" media-type="application/xhtml+xml"/>
+        <item id="ch01" href="chapters/scu-ch01.xhtml" media-type="application/xhtml+xml"/>
+        <item id="ch02" href="chapters/scu-ch02.xhtml" media-type="application/xhtml+xml"/>
+        <item id="ch03" href="chapters/scu-ch03.xhtml" media-type="application/xhtml+xml"/>
+        <item id="ch04" href="chapters/scu-ch04.xhtml" media-type="application/xhtml+xml"/>
+        <item id="ch05" href="chapters/scu-ch05.xhtml" media-type="application/xhtml+xml"/>
+        <item id="ch06" href="chapters/scu-ch06.xhtml" media-type="application/xhtml+xml"/>
+        <item id="ch07" href="chapters/scu-ch07.xhtml" media-type="application/xhtml+xml"/>
+        <item id="stylesheet" href="chapters/stylesheet.css" media-type="text/css"/>
+        <item id="separator" href="separator.svg" media-type="image/svg+xml"/>
+    </manifest>
+    <spine toc="ncx">
+        <itemref idref="cover"/>
+        <itemref idref="intro"/>
+        <itemref idref="ch01"/>
+        <itemref idref="ch02"/>
+        <itemref idref="ch03"/>
+        <itemref idref="ch04"/>
+        <itemref idref="ch05"/>
+        <itemref idref="ch06"/>
+        <itemref idref="ch07"/>
+    </spine>
+    <guide>
+        <reference type="cover" title="Обложка" href="cover.xhtml"/>
+    </guide>
+</package>
