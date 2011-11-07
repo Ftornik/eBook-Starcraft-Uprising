@@ -54,9 +54,11 @@ sup {
     text-decoration: underline;
     cursor: pointer;
 }
+
 sup a {
     color: #000;
 }
+
 .footnotes-container {
     page-break-before: always;
 }
